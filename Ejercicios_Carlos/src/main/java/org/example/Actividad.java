@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class Actividad {
 
     static void main(){
+
+
         Scanner entrada = new Scanner(System.in);
 
 
@@ -28,6 +30,8 @@ public class Actividad {
 
         long resultado = num1 + num2;
         System.out.println("El resultado es " + resultado);
+
+
 
     }
 
