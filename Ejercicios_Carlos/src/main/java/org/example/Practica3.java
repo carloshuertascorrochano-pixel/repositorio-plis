@@ -35,7 +35,7 @@ public class Practica3 {
             System.out.println("LO SIENTO, NO PUEDES MONTAR EN LA ATRACCIÓN");
             int resultado1 = ALTURAMIN - num1;
             System.out.println("TE FALTAN "+resultado1 +"cm");
-            System.exit(0);
+            return;
         }
         try {
             System.out.println("introduce el peso...");
@@ -51,12 +51,13 @@ public class Practica3 {
             if (num2 < PESOMIN){
                 int resultado = PESOMIN-num2;
                 System.out.println("TE FALTAN "+ resultado + " kg");
-                System.exit(0);
+                return;
 
             }else{
                 int resultado1 = num2-PESOMAX;
                 System.out.println("TE sobran "+ resultado1 + " kg");
                 System.exit(0);
+                return;
 
             }
 
