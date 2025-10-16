@@ -9,17 +9,25 @@ public class pract5 {
     static void main() {
         Scanner entrada = new Scanner(System.in);
 
+
+        int a;
+        int b;
+        int c;
+
         System.out.println("Introduce la fecha dd/mm/aaaa");
        String fecha = entrada.next();
 
 
+       do{
+
         String num1 = fecha.substring(0,2);
         String num2 = fecha.substring(3,5);
         String num3 = fecha.substring(6,10);
-        int a = Integer.parseInt(num1);
-        int b = Integer.parseInt(num2);
-        int c = Integer.parseInt(num3);
-
+        a = Integer.parseInt(num1);
+        b = Integer.parseInt(num2);
+        c = Integer.parseInt(num3);
+        
+    }while (a > 31 );
 
         int resultado1 = a + b + c;
         System.out.println(resultado1);
