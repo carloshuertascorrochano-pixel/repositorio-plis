@@ -21,11 +21,12 @@ public class Practica4 {
             System.out.println("NO ES VALIDO");
         }
 
+
        }while ( num1 <= 99 || num1 >= 1000 || num2 <= 99 || num2 >= 1000);
 
 
         String numC = Integer.toString(num2);
-        String numC_1 = numC.substring(0,1);
+        String numC_1 = numC.substring(0,2);
         String numC_2 = numC.substring(1,2);
         String numC_3 = numC.substring(2,3);
         int a = Integer.parseInt(numC_1);
