@@ -10,34 +10,37 @@ public class pract5 {
         Scanner entrada = new Scanner(System.in);
 
 
-        int a;
-        int b;
-        int c;
-
-        System.out.println("Introduce la fecha dd/mm/aaaa");
-       String fecha = entrada.next();
+        int a = 0;
+        int b = 0;
+        int c = 0;
 
 
-       do{
+        do {
 
-        String num1 = fecha.substring(0,2);
-        String num2 = fecha.substring(3,5);
-        String num3 = fecha.substring(6,10);
-        a = Integer.parseInt(num1);
-        b = Integer.parseInt(num2);
-        c = Integer.parseInt(num3);
-        
-    }while (a > 31 );
+            System.out.println("Introduce la fecha dd/mm/aaaa");
+            String fecha = entrada.next();
+            String num1 = fecha.substring(0, 2);
+            String num2 = fecha.substring(3, 5);
+            String num3 = fecha.substring(6, 10);
+            a = Integer.parseInt(num1);
+            b = Integer.parseInt(num2);
+            c = Integer.parseInt(num3);
+
+            if (c < 1900 || a >= 0 || b >= 0) {
+                System.out.println("Introduzca el numero otra vez");
+            }
+
+        } while (a <= 31 || b <= 12 || c > 1900);
 
         int resultado1 = a + b + c;
         System.out.println(resultado1);
 
 
         String numC = Integer.toString(resultado1);
-        String num4 = numC.substring(0,1);
-        String num5 = numC.substring(1,2);
-        String num6 = numC.substring(2,3);
-        String num7 = numC.substring(3,4);
+        String num4 = numC.substring(0, 1);
+        String num5 = numC.substring(1, 2);
+        String num6 = numC.substring(2, 3);
+        String num7 = numC.substring(3, 4);
 
         int d = Integer.parseInt(num4);
         int f = Integer.parseInt(num5);
@@ -47,8 +50,5 @@ public class pract5 {
 
         int resultado2 = d + f + g + e;
         System.out.println(resultado2);
-
-
-
 
     }}
