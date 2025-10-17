@@ -1,8 +1,7 @@
 package org.example;
 
-import javax.print.DocFlavor;
 import java.util.Scanner;
-import java.util.concurrent.ExecutionException;
+
 
 public class pract5 {
 
