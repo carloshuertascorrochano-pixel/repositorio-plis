@@ -5,6 +5,6 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
-        CosasHasNextint.main();
+        pract6.main();
     }
 }

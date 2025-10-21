@@ -25,11 +25,11 @@ public class pract5 {
             b = Integer.parseInt(num2);
             c = Integer.parseInt(num3);
 
-            if (c < 1900 || a >= 0 || b >= 0) {
+            if (c < 1900 || a <= 0 || b <= 0) {
                 System.out.println("Introduzca el numero otra vez");
             }
 
-        } while (a <= 31 || b <= 12 || c > 1900);
+        } while (a > 31 || b > 12 || c < 1900);
 
         int resultado1 = a + b + c;
         System.out.println(resultado1);
