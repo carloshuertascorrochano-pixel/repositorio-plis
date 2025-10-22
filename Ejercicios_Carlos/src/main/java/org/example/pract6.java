@@ -14,35 +14,47 @@ public class pract6 {
 
 
         System.out.println("introduce tipo de operación");
-        String operacion =
         System.out.println("+");
         System.out.println("-");
         System.out.println("/");
         System.out.println("x");
         System.out.println("R");
         System.out.println("---------------------------");
+        String operacion = entrada.next();
 
-        String operacion = "";
-        switch (operacion.toLowerCase()) {
+
+
+        double resultado ;
+
+
+
+
+        switch (operacion) {
             case "x":
-                double resultadomultiplicacion = num1 * num2;
-                System.out.println(" El resultado es " + resultadomultiplicacion);
+            case "*":
+                resultado = num1 * num2;
+                System.out.println(" El resultado es " + resultado);
+                break;
             case "+":
-                double resultadosuma = num1 + num2;
-                System.out.println(" El resultado es " + resultadosuma);
+                resultado = num1 + num2;
+                System.out.println(" El resultado es " + resultado);
+                break;
             case "-":
-                double resultadoresta = num1 + num2;
-                System.out.println(" El resultado es " + resultadoresta);
+                resultado = num1 + num2;
+                System.out.println(" El resultado es " + resultado);
+                break;
             case "/":
-                double resultadodivision = num1 / num2;
-                System.out.println(" El resultado es " + resultadodivision);
+                resultado = num1 / num2;
+                System.out.println(" El resultado es " + resultado);
+                break;
             case "R":
-                double resultadoraiz =  Math.sqrt(num1);
-                System.out.println(" El resultado es " + resultadoraiz);
-
+                resultado =  Math.sqrt(num1);
+                System.out.println(" El resultado es " + resultado);
+                break;
 
         }
-
-
     }
 }
+
+
+
