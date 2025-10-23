@@ -5,6 +5,6 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
-        prueba2.main();
+        pruebas4.main();
     }
 }
