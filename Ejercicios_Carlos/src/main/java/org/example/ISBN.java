@@ -1,14 +1,7 @@
-package org.example;
 
-import java.util.Scanner;
 
-public class ISBN {static void main() {
-    Scanner entrada = new Scanner(System.in);
 
-    System.out.println("Pon el ISBN");
-    int ISBN = entrada.nextInt();
 
-    for( )
 
 
 
@@ -111,6 +104,3 @@ public class ISBN {static void main() {
 
 
 
-
-
-}}
