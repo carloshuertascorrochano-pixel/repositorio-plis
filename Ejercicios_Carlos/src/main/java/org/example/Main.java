@@ -5,6 +5,6 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
-        random3.main();
+        //random3.main();
     }
 }

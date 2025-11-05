@@ -4,7 +4,10 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class random3 {
-    static void main() {
+    public static void main(String[] args) {
+
+
+
         Scanner entrada = new Scanner(System.in);
         Random random = new Random();
 
@@ -22,14 +25,14 @@ public class random3 {
 
 
 
-        for (int i = 0; i <= num1 ; i++) {
+        for (int i = 1; i <= num1 ; i++) {
 
             num = random.nextInt(num2,num3);
 
-
+            System.out.println(num);
 
         }
 
-        System.out.println(num);
+
     }
 }
