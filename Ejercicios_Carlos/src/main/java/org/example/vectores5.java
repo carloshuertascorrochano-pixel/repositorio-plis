@@ -32,11 +32,9 @@ public class vectores5 {
             }else{
                 filtrado[i] = vector[i];
             }
+        }
 
-            System.out.println(Arrays.toString(vector));
+        System.out.println(Arrays.toString(vector));
+
     }
-
-
-    }
-
 }

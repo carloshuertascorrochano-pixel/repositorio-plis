@@ -10,11 +10,16 @@ public class trazas2 {
         int n = 0;
         int a = 0;
 
-        for(i = 1; i <= n; i++){
+        for(i = 1; i <= n ; i++){
             System.out.println(i);
             a = a * i;
             System.out.println();
 
 
-}}}
+
+        }
+
+    }
+
+}
 

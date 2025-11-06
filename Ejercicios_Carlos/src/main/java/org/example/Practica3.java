@@ -34,7 +34,7 @@ public class Practica3 {
 
             System.out.println("LO SIENTO, NO PUEDES MONTAR EN LA ATRACCIÓN");
             int resultado1 = ALTURAMIN - num1;
-            System.out.println("TE FALTAN "+resultado1 +"cm");
+            System.out.println("TE FALTAN " + resultado1 + "cm");
             return;
         }
         try {
@@ -50,19 +50,21 @@ public class Practica3 {
         }else{
             if (num2 < PESOMIN){
                 int resultado = PESOMIN-num2;
-                System.out.println("TE FALTAN "+ resultado + " kg");
+                System.out.println("TE FALTAN "  + resultado + " kg");
                 return;
 
             }else{
                 int resultado1 = num2-PESOMAX;
-                System.out.println("TE sobran "+ resultado1 + " kg");
+                System.out.println("TE sobran "  + resultado1 + " kg");
                 System.exit(0);
                 return;
 
             }
 
 
-        }}}
+        }
+    }
+}
 
 
 
