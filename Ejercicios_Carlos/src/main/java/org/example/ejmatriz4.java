@@ -19,10 +19,10 @@ int m[][]= new int[3][4];
         for (int i = 0; i < a.length ; i++) {
             for (int j = 0; j < a[i].length; j++) {
                 if (a[i][j]>b[i][j]){
-                    m[i][j] = (a[i][j];
+                    m[i][j] = (a[i][j]);
 
                 }else
-                    m[i][j] = (b[i][j];
+                    m[i][j] = (b[i][j]);
             }
             for (int fila[] : m){
                 System.out.println(Arrays.toString(fila));
