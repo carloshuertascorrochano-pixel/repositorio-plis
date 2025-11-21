@@ -22,7 +22,6 @@ public class space_invaders {
              if(fila.length== mensaje[i].length) {
                  for (int j = 0; j < mensaje[i].length; j++) {
                      mensaje[i][j] = fila[j];
-
                  }
              }else {
                  System.out.println("longitud incorrecta (3");
@@ -35,7 +34,7 @@ public class space_invaders {
         }
         for (int i = 0; i < mensaje[0].length; i++) {
             for (int j = 0; j < mensaje.length; j++) {
-                System.out.println(mensaje[i][j]);
+                System.out.print(mensaje[i][j]);
 
             }
 
