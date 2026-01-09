@@ -98,8 +98,7 @@ public class bonitocartelillopillo {
      * @param posi índice del dígito a insertar
      * @param numerinesmeter lista de dígitos del numerinesmeter
      */
-    static void meternumerines(boolean[][] metodoanterior, int posi,
-                               List<Integer> numerinesmeter) {
+    static void meternumerines(boolean[][] metodoanterior, int posi, List<Integer> numerinesmeter) {
         if (posi < numerinesmeter.size())
             metodoanterior[0] = numerines[numerinesmeter.get(posi)].clone();
         else
@@ -188,7 +187,7 @@ public class bonitocartelillopillo {
         return true;
     }
 
-    
+
     /**
      * Método principal que ejecuta el programa.
      * Continúa solicitando casos de prueba hasta que no haya más entradas.
